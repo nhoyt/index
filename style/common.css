@@ -1,0 +1,66 @@
+body {
+  background: #fff;
+  font-family: arial, helvetica, sans-serif;
+}
+
+div.subtitle {
+  font-size: 100%;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+blockquote {
+	margin: 0 1em 0.5em 1em;
+}
+
+hr {
+  border-style: solid;
+  border-width: thin;
+  color: #ddd;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+img {
+  border-style: none;
+}
+
+p {
+  margin: 1em 0 0 0;
+}
+
+/* ANCHORS */
+
+li a:link, p a:link {
+  color: #039;
+}
+
+li a:visited, p a:visited {
+  color: #639;
+}
+
+/* Note: This rule has to follow the a:link and a:visited rules */
+li a:hover, p a:hover {
+  background: #eee;
+  color: #000;
+}
+
+/* LISTS */
+
+ol.noindent, ul.noindent {
+  margin-top: 1em;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+ol.noindent {
+  margin-left: 24px;
+}
+
+ul.noindent {
+  margin-left: 16px;
+}
+
+ol.noindent li, ul.noindent li {
+  margin-top: 0.5em;
+}

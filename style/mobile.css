@@ -1,0 +1,107 @@
+body, div, p, h1, h2, h3, h4, h5, h6, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: large;
+  background: #fff;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  padding: 4px;
+}
+
+h1 {
+  font-size: 130%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+h2.menu, h2.category {
+  font-size: 112%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+	background-image: url('/media/images/arrow_right.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+  border-bottom: 1px solid #ccc;
+}
+
+li:first-child {
+  border-top: 1px solid #ccc;
+}
+
+ul.menu li a, ul.category li a {
+  display: block;
+  padding: 10px 32px 10px 4px;
+}
+
+#footer {
+  font-size: small;
+  padding: 6px;
+}
+
+/*** COLORS ***/
+
+#header {
+	background: #C4D6AB;
+}
+
+#content {
+	background: #FFF;
+}
+
+h1 {
+	color: #43353D;
+	border-bottom: 1px solid #48553B;
+  border-color: #888;
+}
+
+h2.menu, h2.category {
+	background: #FFE5AC;
+	color: #52414B;
+}
+
+ul.menu a:link, ul.category a:link {
+	color: #000;
+}
+
+ul.menu a:visited, ul.category a:visited {
+	color: #7F6574;
+}
+
+.button {
+  position: absolute;
+  overflow: hidden;
+  top: 6px;
+  right: 8px;
+  margin: 0;
+  border-width: 0 5px;
+  border: 1px solid #7F6574;
+  padding: 0 4px;
+  width: auto;
+  height: 1.5em;
+  line-height: 1.5em;
+  font-family: inherit;
+  font-size: 112%;
+  font-weight: bold;
+  color: #7F6574;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  white-space: nowrap;
+  background: none;
+}
