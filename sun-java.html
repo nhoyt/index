@@ -363,5 +363,15 @@
       <button id="mapquest-button">MapQuest</button>
     </form>
   </aside>
+  <script>
+  (function () {
+    var menuhref = 'sun-java.html';
+    var selector = 'nav#left ul li a[href="sun-java.html"]';
+    var element = document.querySelector(selector);
+    if (element) {
+      element.setAttribute("class", "current");
+    }
+  })();
+  </script>
 </body>
 </html>

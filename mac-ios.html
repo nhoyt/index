@@ -292,5 +292,15 @@
       <button id="mapquest-button">MapQuest</button>
     </form>
   </aside>
+  <script>
+  (function () {
+    var menuhref = 'mac-ios.html';
+    var selector = 'nav#left ul li a[href="mac-ios.html"]';
+    var element = document.querySelector(selector);
+    if (element) {
+      element.setAttribute("class", "current");
+    }
+  })();
+  </script>
 </body>
 </html>

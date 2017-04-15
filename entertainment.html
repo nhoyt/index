@@ -396,5 +396,15 @@
       <button id="mapquest-button">MapQuest</button>
     </form>
   </aside>
+  <script>
+  (function () {
+    var menuhref = 'entertainment.html';
+    var selector = 'nav#left ul li a[href="entertainment.html"]';
+    var element = document.querySelector(selector);
+    if (element) {
+      element.setAttribute("class", "current");
+    }
+  })();
+  </script>
 </body>
 </html>
