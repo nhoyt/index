@@ -137,7 +137,7 @@ header nav a#skip-to-search:focus {
   border-left-color: #A8BB90;
   color: #000; }
 
-#left ul.menu li a.current {
+#left ul.menu li a[aria-current="page"] {
   padding-left: 4px;
   border-left-color: #9C0000; }
 
