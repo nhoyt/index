@@ -81,6 +81,7 @@ header nav a#skip-to-search:focus {
   margin: 0 184px; }
 
 #content {
+  overflow: hidden;
   padding: 10px 12px;
   background: #FFF;
   border-width: 1px;
@@ -96,6 +97,7 @@ header nav a#skip-to-search:focus {
   padding: 0.25em 0 0.5em 2px; }
 
 #footer {
+  float: clear;
   padding: 4px 12px 4px 14px;
   background: #C4D6AB;
   border-width: 1px;
@@ -106,6 +108,19 @@ header nav a#skip-to-search:focus {
 
 #footer p {
   margin: 0; }
+
+/* CONTENT COLUMNS */
+.column-1-1 {
+  float: left;
+  width: 100%; }
+
+.column-1-2 {
+  float: left;
+  width: 50%; }
+
+.column-1-3 {
+  float: left;
+  width: 33.3%; }
 
 /* LEFT ELEMENTS */
 #left {
@@ -183,19 +198,6 @@ header nav a#skip-to-search:focus {
 
 #right div.validator {
   margin: 16px 0 -6px 1px; }
-
-/* CONTENT TABLE */
-table.content {
-  width: 100%;
-  border-collapse: collapse;
-  border-spacing: 0; }
-
-table.content td {
-  padding: 0;
-  vertical-align: top; }
-
-table.content td.pad-right {
-  padding-right: 12px; }
 
 /* UL ELEMENTS: CLASS CATEGORY */
 ul.category {
