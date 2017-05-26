@@ -94,6 +94,9 @@ header nav a#skip-to-search:focus {
   @media screen and (max-width: 768px) {
     #content {
       font-size: 18.2px; } }
+  @media screen and (max-width: 600px) {
+    #content {
+      font-size: 21px; } }
 
 #content p {
   margin: 0;
@@ -157,6 +160,9 @@ header nav a#skip-to-search:focus {
   @media screen and (max-width: 768px) {
     #left ul.menu li {
       padding: 4px 0; } }
+  @media screen and (max-width: 768px) {
+    #left ul.menu li {
+      padding: 6px 0; } }
 
 #left ul.menu li a {
   display: block;
