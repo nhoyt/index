@@ -52,7 +52,7 @@ header nav a#skip-to-search:focus {
 #title {
   width: auto;
   min-width: 300px;
-  padding: 8px 0 6px;
+  padding: 8px 12px 6px;
   border-style: solid;
   border-width: 1px;
   background: #C4D6AB;
@@ -107,7 +107,7 @@ header nav a#skip-to-search:focus {
 
 #footer {
   float: clear;
-  padding: 4px 12px 4px 14px;
+  padding: 4px 12px 4px;
   background: #C4D6AB;
   border-width: 1px;
   border-style: solid;

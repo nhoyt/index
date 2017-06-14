@@ -11,7 +11,7 @@
 <!-- Header -->
 <header>
 <nav aria-label="Skip-to Links">
-<a id="skip-to-main" href="#title">Skip to main content</a>
+<a id="skip-to-main" href="#main">Skip to main content</a>
 <a id="skip-to-search" href="#right">Skip to search forms</a>
 </nav>
 <div id="logo">
@@ -76,10 +76,8 @@
 
 <!-- Main Content -->
 <div id="center">
-<main>
-<div id="title" tabindex="0">
-<h1>Web Trends</h1>
-</div>
+<main id="main" aria-labelledby="title" tabindex="0">
+<h1 id="title">Web Trends</h1>
 <div id="content">
 <div class="column-1-1">
 <h2 class="category" id="angular-vs-ember-vs-react">Angular vs. Ember vs. React</h2>
@@ -127,7 +125,7 @@
 </div>
 </div>
 <!-- Footer -->
-<div id="footer" tabindex="0">
+<div id="footer" tabindex="0" role="note">
 &copy; 1996&thinsp;–&thinsp;2017 N. Hoyt &thinsp;|&thinsp; 25 links
 </div>
 </main>
