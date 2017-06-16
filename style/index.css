@@ -32,6 +32,14 @@ h2.menu {
   color: #414B52; }
 
 /* HEADER */
+header nav a#skip-to-nav {
+  position: absolute;
+  left: -1000px;
+  z-index: 10; }
+
+header nav a#skip-to-nav:focus {
+  left: 30px; }
+
 header nav a#skip-to-main {
   position: absolute;
   left: -1000px;

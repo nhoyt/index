@@ -10,7 +10,8 @@
 <body>
 <!-- Header -->
 <header>
-<nav aria-label="Skip-to Links">
+<nav aria-label="page regions">
+<a id="skip-to-nav" href="#left">Skip to site navigation</a>
 <a id="skip-to-main" href="#main">Skip to main content</a>
 <a id="skip-to-search" href="#right">Skip to search forms</a>
 </nav>
@@ -19,7 +20,7 @@
 </header>
 
 <!-- Navigation -->
-<nav id="left" aria-label="Index Categories">
+<nav id="left" aria-label="site menus" tabindex="-1">
 <h2 class="menu">Politics &amp; Culture</h2>
 <ul class="menu" aria-label="Politics &amp; Culture menu">
 <li><a href="politics.html">Politics</a></li>
@@ -76,7 +77,7 @@
 
 <!-- Main Content -->
 <div id="center">
-<main id="main" aria-labelledby="title" tabindex="0">
+<main id="main" aria-labelledby="title" tabindex="-1">
 <h1 id="title">Media Reform</h1>
 <div id="content">
 <div class="column-1-1">
@@ -115,14 +116,14 @@
 </div>
 </div>
 <!-- Footer -->
-<div id="footer" tabindex="0" role="note">
+<div id="footer" role="region" aria-label="footer">
 &copy; 1996&thinsp;–&thinsp;2017 N. Hoyt &thinsp;|&thinsp; 18 links
 </div>
 </main>
 </div>
 
 <!-- Search Tools -->
-<aside id="right" role="search" tabindex="-1" aria-label="Web Search Forms">
+<aside id="right" role="search" tabindex="-1">
 <h2 class="menu">Search/Lookup</h2>
 <!-- Wikipedia -->
 <form action="http://en.wikipedia.org/wiki/Special:Search" method="get">
