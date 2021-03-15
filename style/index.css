@@ -203,8 +203,6 @@ header nav a#skip-to-search:focus {
   padding: 0; }
 
 #right input {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
   margin-top: 12px;
@@ -220,8 +218,6 @@ header nav a#skip-to-search:focus {
 
 #right button {
   margin-top: 0px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
   border-radius: 4px;
   border-width: 1px;
   border-color: #A8BB90;
