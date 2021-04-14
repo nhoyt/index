@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Components : Relegant Index</title>
+<link type="text/css" rel="stylesheet" href="style/index.css" />
+</head>
+
+<body>
+<!-- Header -->
+<header>
+<nav aria-label="page regions">
+<a id="skip-to-nav" href="#left">Skip to site navigation</a>
+<a id="skip-to-main" href="#main">Skip to main content</a>
+<a id="skip-to-search" href="#right">Skip to search forms</a>
+</nav>
+<div id="logo">
+<a href="index.html"><img src="images/logo.gif" alt="Home : Relegant Index" title="Home : Relegant Index"/></a></div>
+</header>
+
+<!-- Navigation -->
+<nav id="left" aria-label="site menus">
+<h2 class="menu">News</h2>
+<ul class="menu" aria-label="News menu">
+<li><a href="current-events.html">Current Events</a></li>
+<li><a href="magazines.html">Magazines</a></li>
+<li class="last"><a href="technology.html">Technology</a></li>
+</ul>
+<h2 class="menu">Computer Science</h2>
+<ul class="menu" aria-label="Computer Science menu">
+<li><a href="bash.html">Bash / Unix</a></li>
+<li><a href="git.html">Git Resources</a></li>
+<li><a href="javascript.html">JavaScript</a></li>
+<li><a href="ocaml.html">OCaml</a></li>
+<li><a href="programming.html">Programming</a></li>
+<li class="last"><a href="editors.html">Text Editors</a></li>
+</ul>
+<h2 class="menu">Web Development</h2>
+<ul class="menu" aria-label="Web Development menu">
+<li><a href="browser.html">Browser Dev.</a></li>
+<li><a href="front-end.html">Front-end Dev.</a></li>
+<li><a href="web-components.html">Web Components</a></li>
+<li><a href="web-design.html">Web Design</a></li>
+<li><a href="web-standards.html">Web Standards</a></li>
+<li class="last"><a href="work.html">Work Resources</a></li>
+</ul>
+<h2 class="menu">HCI</h2>
+<ul class="menu" aria-label="HCI menu">
+<li><a href="accessibility.html">Accessibility</a></li>
+<li><a href="design.html">Design Resources</a></li>
+<li><a href="hci.html">HCI Resources</a></li>
+<li><a href="interaction.html">Interaction Design</a></li>
+<li><a href="ui-design.html">UI Design</a></li>
+<li class="last"><a href="usability.html">Usability Testing</a></li>
+</ul>
+<h2 class="menu">Music</h2>
+<ul class="menu" aria-label="Music menu">
+<li><a href="cubase.html">Cubase</a></li>
+<li><a href="dorico.html">Dorico</a></li>
+<li><a href="guitar.html">Guitar Resources</a></li>
+<li><a href="jazz-guitar.html">Jazz Guitar</a></li>
+<li><a href="jazz-improv.html">Jazz Improvisation</a></li>
+<li class="last"><a href="music-reference.html">Music Reference</a></li>
+</ul>
+<h2 class="menu">Miscellaneous</h2>
+<ul class="menu" aria-label="Miscellaneous menu">
+<li><a href="entertainment.html">Entertainment</a></li>
+<li><a href="gen-reference.html">Gen. Reference</a></li>
+<li><a href="home-audio.html">Home Audio</a></li>
+<li><a href="musicians.html">Musicians &amp; Events</a></li>
+<li class="last"><a href="shopping.html">Shopping</a></li>
+</ul>
+</nav>
+
+<!-- Main Content -->
+<div id="center">
+<main id="main" aria-labelledby="title">
+<h1 id="title">Web Components</h1>
+<div id="content">
+<div class="column-1-1">
+<h2 class="category" id="mdn-reference-getting-started">MDN Reference: Getting Started</h2>
+<ul class="category" aria-labelledby="mdn-reference-getting-started">
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">Web Components</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_custom_elements">Using custom elements</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_shadow_DOM">Using shadow DOM</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components/Using_templates_and_slots">Using templates and slots</a></li>
+<li><a href="https://github.com/mdn/web-components-examples">mdn/web-components-examples</a></li>
+</ul>
+<h2 class="category" id="mdn-reference-api">MDN Reference: API</h2>
+<ul class="category" aria-labelledby="mdn-reference-api">
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/CustomElementRegistry">CustomElementRegistry</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement">HTMLElement</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLSlotElement">HTMLSlotElement</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement">HTMLTemplateElement</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/ShadowRoot">ShadowRoot</a></li>
+</ul>
+</div>
+</div>
+<!-- Footer -->
+<div id="footer" role="region" aria-label="footer">
+&copy; 2021 relegant.com &thinsp;|&thinsp; 10 links
+</div>
+</main>
+</div>
+
+<!-- Search Tools -->
+<aside id="right" role="search">
+<h2 class="menu">Search/Lookup</h2>
+<!-- Wikipedia -->
+<form action="https://en.wikipedia.org/wiki/Special:Search" method="get">
+<input type="text" class="first" name="search" onfocus="select()" aria-labelledby="wikipedia-button"/>
+<button id="wikipedia-button">Wikipedia</button>
+</form>
+<!-- Merriam Webster -->
+<form action="https://www.merriam-webster.com/dictionary/" method="get">
+<input type="text" name="s" onfocus="select()" aria-labelledby="merriam-webster-button"/>
+<button id="merriam-webster-button">Merriam-Webster</button>
+</form>
+<!-- Duck Duck Go -->
+<form action="https://duckduckgo.com/" method="get">
+<input type="text" name="q" onfocus="select()" aria-labelledby="duckduckgo-button"/>
+<button id="duckduckgo-button">Duck Duck Go</button>
+</form>
+<!-- OpenStreetMap -->
+<form action="https://www.openstreetmap.org/" method="get">
+<input type="text" name="query" onfocus="select()" aria-labelledby="openstreetmap-button"/>
+<button id="openstreetmap-button">OpenStreetMap</button>
+</form>
+</aside>
+
+<script>
+(function () {
+  var selector = 'nav#left ul li a[href="web-components.html"]';
+  var element = document.querySelector(selector);
+  if (element) {
+    element.setAttribute("aria-current", "page");
+  }
+})();
+</script>
+</body>
+</html>
