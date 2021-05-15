@@ -151,6 +151,14 @@ header nav a#skip-to-search:focus {
   padding: 12px;
   padding-bottom: 0; }
 
+#left div.menu {
+  color: #414B52;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 1px; }
+
 #left ul.menu {
   list-style-type: none;
   margin: 0 0 12px;
