@@ -284,6 +284,7 @@ header nav a#skip-to-search:focus {
   border-color: #A8BB90;
   background: #414B52;
   color: #FFF;
+  font-family: inherit;
   font-size: 0.7rem;
   padding: 2px 4px;
 }
