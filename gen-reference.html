@@ -247,7 +247,7 @@
 
 <script>
 (function () {
-  var selector = 'nav#left ul li a[href="gen-reference.html"]';
+  var selector = 'nav#left ul li a[href$="gen-reference.html"]';
   var element = document.querySelector(selector);
   if (element) {
     element.setAttribute("aria-current", "page");

@@ -288,7 +288,7 @@
 
 <script>
 (function () {
-  var selector = 'nav#left ul li a[href="software.html"]';
+  var selector = 'nav#left ul li a[href$="software.html"]';
   var element = document.querySelector(selector);
   if (element) {
     element.setAttribute("aria-current", "page");
